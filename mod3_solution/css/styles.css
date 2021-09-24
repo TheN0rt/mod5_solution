@@ -1,0 +1,44 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+ }
+
+ body{
+    background-color: aquamarine;
+ }
+ 
+ nav.navbar.navbar-default {
+   background-color: bisque;
+}
+
+.menu{
+   background-color: rgb(121, 160, 214);
+   border: 2px solid #000;
+}
+
+.menu__name{
+   text-align: center;
+} 
+
+.container{
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#nav-list a{
+   text-align: center;
+}
+
+@media(min-width: 768px){
+   .col-sm-6{
+      margin-bottom: 20px;
+   }
+}
+
+@media(max-width: 767px){
+   .col-xs-12{
+      margin-bottom: 20px;
+   }
+}
+
